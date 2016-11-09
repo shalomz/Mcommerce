@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/shalomz/Mcommerce#readme",
   "dependencies": {
+    "bootstrap3": "^3.3.5",
     "express": "^4.14.0"
   }
 }
