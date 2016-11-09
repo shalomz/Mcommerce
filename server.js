@@ -5,7 +5,7 @@ var server = http.createServer(function (req, res) {
 });
 
 function displayForm(res) {
-    fs.readFile('form.html', function (err, data) {
+    fs.readFile('views/form.html', function (err, data) {
         res.writeHead(200, {
             'Content-Type': 'text/html',
                 'Content-Length': data.length
